@@ -1,0 +1,11 @@
+# Generated
+node_modules
+.cache
+dist
+
+# IDE
+.vscode
+.idea
+
+# Mac OS
+.DS_Store
