@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FE Template</title>
-    <link rel="stylesheet" href="style.scss">
-    <script defer src="main.js"></script>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FE Template</title>
+        <link rel="stylesheet" href="style.scss" />
+        <script defer src="main.js"></script>
+    </head>
   <body>
-    <h1>FE Template</h1>
+      <div class="info">
+      <div class="info__goal info__goal--left">
+        <span>In the left goal</span>
+        <ul class="info__list">
+          <li class="info__item"></li>
+        </ul>
+      </div>
+      <div class="score">
+        <span>SCORE</span>
+        <span class="score__value">0:0</span>
+      </div>
+      <div class="info__goal info__goal--right">
+        <span>In the right goal</span>
+        <ul class="info__list">
+          <li class="info__item"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field__line"></div>
+      <div class="field__circle--small"></div>
+      <div class="field__circle--big"></div>
+      <div class="field__gate field__gate--left"></div>
+      <div class="field__gate field__gate--right"></div>
+    </div>
   </body>
 </html>
