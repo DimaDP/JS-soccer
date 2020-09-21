@@ -1,0 +1,61 @@
+.field {
+  background-color: #709B5E;
+  width: 1200px;
+  height: 640px;
+  margin: auto;
+  box-shadow: 0 21px 99px rgba(0,0,0,0.36);
+  border-radius: 20px;
+  position: relative;
+
+  &__line {
+    width: 7px;
+    background-color: #BDCEB6;
+    height: 640px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  &__circle--small {
+    position: absolute;
+    border-radius: 50%;
+    
+    width: 28px;
+    height: 28px;
+    background-color: #BDCEB6;
+    left: calc(50% - 14px);
+    top: calc(50% - 14px);
+  }
+  
+  &__circle--big {
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 50%;
+    
+    width: 176px;
+    height: 176px;
+    border: 7px solid #BDCEB6;
+  
+    left: calc(50% - 88px);
+    top: calc(50% - 88px);
+  }
+
+  &__gate {
+    width: 150px;
+    height: 382px;
+    background-color: #BDCEB6;
+  
+    position: absolute;
+    top: calc(50% - (382px / 2));
+  }
+  
+  &__gate--right {
+    right: 0;
+  }
+
+  &__ball {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    cursor: pointer;
+  }
+}

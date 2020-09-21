@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import 'field';
+@import 'ball';
+@import 'info';
+
+h1 {
+  color: red;
+  background-color: blue;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 100px;
+ }
+
+.body {
+  user-select: none;
+}
